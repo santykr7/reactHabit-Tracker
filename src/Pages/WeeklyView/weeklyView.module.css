@@ -1,0 +1,71 @@
+.container h2 {
+  margin-left: 40px;
+}
+
+.habitList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.habitItem {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 60px;
+  margin: auto;
+  background-color: #d1cfd2;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.habitItem h3 {
+  font-size: 20px;
+  color: #563d64;
+  margin-bottom: 10px;
+}
+
+.habitDates {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.habitDates p {
+  font-size: 16px;
+  color: #7388a6;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.habitDates img {
+  height: 18px;
+  width: 18px;
+  margin-left: 40px;
+}
+
+.habitMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.habitMenu img {
+  width: 20px;
+  height: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.no_hbt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 50px;
+  font-size: 24px;
+  color: #563d64;
+  background-color: #dce1f7;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
