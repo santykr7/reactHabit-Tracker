@@ -1,9 +1,8 @@
 /* ------------ IMPORT COMPONENTS ------------ */
-Navbar
 import Navbar from "./Components/Navbar/Navbar"
 import DailyView from "./Pages/Dailyview/dailyView"
+import WeeklyView from "./Pages/WeeklyView/WeeklyView"
 
-import Weekly from "./Pages/WeeklyView/weeklyView"
 /* ------------ IMPORT ROUTER ------------ */
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 
@@ -14,7 +13,7 @@ function App() {
       element: <Navbar />,
       children: [
         { path: "/", element: <DailyView /> },
-        { path: "/weekly", element: <Weekly /> },
+        { path: "/weekly", element: <WeeklyView /> },
       ],
     },
   ])
